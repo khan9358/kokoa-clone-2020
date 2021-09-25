@@ -2,26 +2,40 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kokoa Talk</title>
+    <title>하로로톡</title>
 </head>
 
 <body>
     <div class="status-bar">
         <div class="status-bar__column">
-            <span>No Service</span>
+            <span>서비스 안 됨</span>
             <i class="fas fa-wifi"></i>
         </div>
         <div class="status-bar__column">
-            <span>18:43</span>
+            <span>오후 3:23</span>
         </div>
         <div class="status-bar__column">
-            <span>110%</span>
-            <i class="fas fa-battery-three-quarters"></i>
-            <i class="fas fa-bolt"></i>
+            <span>76%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
         </div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">🐈하로로톡</h1>
+        <p class="welcome-header__text">하로로 계정이 있다면, 휴대폰 번호 또는 이메일로 로그인 해주세요.</p>
+    </header>
+    <form id="login-form">
+        <input type="text" placeholder="휴대폰 번호 또는 이메일">
+        <input type="password" placeholder="비밀번호">
+        <input type="submit" value="로그인">
+    </form>
+    
+    <div class="find-account">
+        <a href="#">하로로 계정 찾기</a>
+        <a href="#">비밀번호 재설정</a>
     </div>
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>

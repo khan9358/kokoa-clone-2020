@@ -24,17 +24,18 @@
         </div>
     </div>
     <header class="welcome-header">
-        <h1 class="welcome-header__title">🐈하로로톡</h1>
-        <p class="welcome-header__text">하로로 계정이 있다면, 휴대폰 번호 또는 이메일로 로그인 해주세요.</p>
+        <img class="welcome-header__logo" src="src/logo.png" alt="하로로톡">
+        <!-- <h1 class="welcome-header__title">하로로톡</h1> -->
+        <p class="welcome-header__text">하로로톡 계정이 있다면, 휴대폰 번호 또는 이메일로 로그인 해주세요.</p>
     </header>
-    <form id="login-form">
-        <input type="text" placeholder="휴대폰 번호 또는 이메일">
-        <input type="password" placeholder="비밀번호">
+    <form action="friends.html" method="GET" id="login-form">
+        <input name="username" type="text" placeholder="휴대폰 번호 또는 이메일">
+        <input name="password" type="password" placeholder="비밀번호">
         <input type="submit" value="로그인">
     </form>
     
     <div class="find-account">
-        <a href="#">하로로 계정 찾기</a>
+        <a href="#">하로로톡 계정 찾기</a>
         <a href="#">비밀번호 재설정</a>
     </div>
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>

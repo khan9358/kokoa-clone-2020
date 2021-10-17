@@ -48,7 +48,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 132px;
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 1s;
+}
+
+#splash-screen img {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
 }
